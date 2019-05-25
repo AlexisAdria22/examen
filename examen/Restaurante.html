@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Restaurante Coreano">
+  <meta name="keywords" content="Restaurante, restaurant">
+  <title>^.^Restaurante Saranghae^.^</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+  </head>
+  <style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Estilo Menú */
+  html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+  }
+
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  h1, h2, h3 {
+    padding-bottom: 20px;
+  }
+
+  p {
+    margin: 10px 0;
+  }
+  /* Clases Generales */
+
+  /* container mantendrá el contenido centrado y con un máximo de ancho */
+  .color1 {
+    margin: auto;
+    max-width: 430px;
+    overflow: auto;
+    padding: 0 20px;
+  }
+
+   /* Navbar */
+   #navbar {
+     background: #be1919;
+     color: #000000;
+     overflow: auto;
+   }
+
+  #navbar a {
+    color: #fff;
+  }
+
+  #navbar h1 {
+    float: left;
+    padding-top: 20px;
+  }
+
+  #navbar ul {
+    list-style: none;
+    float: right;
+  }
+
+  #navbar ul li{
+    float: left;
+  }
+
+  #navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #navbar ul li a:hover,
+  #navbar ul li a.current {
+    border-color: #000000;
+    background: #000000;
+    color: #ffffff;
+  }
+  .text-primary {
+  color:#000000;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #5BBF21;
+}
+
+#welcome {
+  background: url('/imagenes/comida1.jpg') no-repeat center center/cover;
+  height: 600px;
+}
+#welcome .imagen1{
+  background: url('/imagenes/comida1.jpg') no-repeat center center/cover;
+  height: 300px;
+  width: 400px
+
+}
+#welcome .intoduccio {
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+
+#welcome .introduccion h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+#welcome .introducciont p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+.btn-light {
+  background: #f4f4f4;
+  color: #215b33;
+}
+
+.bg-comida {
+  background: #f1eded;
+  color: #000000;
+}
+.bg-comida1 {
+  background: #ffffff  ;
+  color: #000000;
+}
+
+.bg-light {
+  background: #d7c4c4;
+  color: #215b33;
+}
+
+.bg-primary {
+  background: #5BBF21;
+  color: #215b33;
+}
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-comida {
+  float: left;
+  width: 0%;
+  background: url(../img/comida1.jpg) no-repeat center center/cover;
+  min-height: 50%;
+}
+#home-info .info-comida1 {
+  float: left;
+  width: 0%;
+  background: url(../img/photo-fime-1.jpg) no-repeat center center/cover;
+  min-height: 50%;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 20px;
+  overflow: hidden;
+}
+#home-info .info-contenido {
+  float: left;
+  width: 50%;
+  height: 90%;
+  text-align: center;
+  padding: 50px 10px;
+  overflow: hidden;
+}
+#home-info .info-contenido1 {
+  float: left;
+  width: 50%;
+  height: 90%;
+  text-align: center;
+  padding: 50px 10px;
+  overflow: hidden;
+}
+#home-info .info-content p {
+  padding-bottom: 30px
+}
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+.box i {
+  margin-bottom: 10px;
+}
+.clr {
+  clear: both;
+}
+
+/* Pie de página */
+
+#main-footer {
+  text-align: center;
+  background: url('/imagenes/color1.jpg')no-repeat center center/cover;
+  color: #fff;
+  padding: 40px;
+}
+  </style>
+  <body>
+  <nav id="navbar">
+      <div class="color1">
+        <ul>
+          <h2><li><a href="menu.html">Menu</a></li>
+          <li><a href="">Saranghe</a></li>
+        <li><a href="contact.html">Reserva</a></li></h2>
+        </ul>
+      </div>
+    </nav>
+    <div id="welcome">
+        <div class="container">
+          <div class="introduccion">
+          </div>
+        </div>
+      </div>
+
+      <section id="home-info" class="bg-comida">
+        <div>
+        <div class="info-comida"></div>
+        <div class="info-contenido">
+          <i class="fas fa-map fa-3x"></i>
+          <h2>
+            <span class="text-primary">UBICACION
+          </h2>
+          <p>Avenida José Vasconcelos 158, Jardines del Campestre, 66450 San Pedro Garza García, N.L.</p>
+          <p><i class="far fa-clock fa-3x"></i></p>
+          <h2>HORARIO</h2>
+          <p>9:00am - 10:00 pm Lunes a Viernes</p>
+          <p>Cerrado Sabados y Domingos</p>
+        </div>
+      </div>
+        <div>
+        <section id="home-info" class="bg-comida1">
+        <div class="info-comida1"></div>
+        <div class="info-contenido1">
+          <h2>
+            <span class="text-primary">METODOS DE PAGO
+          </h2>
+          <p><i class="fab fa-cc-paypal fa-3x"></i></p>
+          <p><i class="fab fa-cc-mastercard fa-3x"></i></p>
+          <p><i class="fas fa-dollar-sign fa-3x"></i></p>
+        </div>
+</div>
+      </section>
+  <div class="clr"></div>
+  <footer id="main-footer">
+    <p>Derechos reservados por restaurante Saranghe</p>
+  </footer>
+</body>
+</html>
